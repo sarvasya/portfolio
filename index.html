@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhendu Sarkar — Design Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Subhendu Sarkar — Design Head at E-Cell IIT BHU. UI/UX, branding, and visual design." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ░░ HEADER / NAV ░░ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-dot"></span> Sarvasya<span class="logo-accent">.</span>
+            </a>
+            <ul class="nav__list" id="navList">
+                <li><a href="#home" class="nav__link active">Home</a></li>
+                <li><a href="#work" class="nav__link">Work</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ░░ HERO ░░ -->
+    <section class="hero" id="home">
+        <div class="hero__bg-grid"></div>
+        <div class="hero__glow hero__glow--1"></div>
+        <div class="hero__glow hero__glow--2"></div>
+
+        <div class="hero__content container">
+            <p class="hero__tag reveal">✦ Design Head · E-Cell IIT BHU</p>
+            <h1 class="hero__title reveal">
+                Hi, I'm <span class="gradient-text">Subhendu</span><br />
+                Sarkar
+            </h1>
+            <p class="hero__subtitle reveal">
+                Design Head at E-Cell IIT BHU — leading a team of 12 to craft stunning Instagram visuals, the E-Cell
+                website, and the E-Summit digital experience.
+            </p>
+            <div class="hero__cta reveal">
+                <a href="#work" class="btn btn--primary">View My Work</a>
+                <a href="#contact" class="btn btn--outline">Get in Touch</a>
+            </div>
+        </div>
+
+        <div class="hero__scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ░░ WORK / PORTFOLIO ░░ -->
+    <section class="section work" id="work">
+        <div class="container">
+            <p class="section__tag reveal">✦ Selected Work</p>
+            <h2 class="section__title reveal">Featured Projects</h2>
+
+            <div class="gallery">
+
+                <a href="https://www.ecelliitbhu.com/" target="_blank" rel="noopener" class="card-link">
+                    <article class="card reveal" data-category="ui">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80"
+                                alt="E-Cell IIT BHU Website" loading="lazy" />
+                            <div class="card__overlay">
+                                <span class="card__view">Visit Website →</span>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <span class="card__cat">UI / UX</span>
+                            <h3 class="card__title">E-Cell IIT BHU Website</h3>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="https://esummit.ecelliitbhu.com/" target="_blank" rel="noopener" class="card-link">
+                    <article class="card reveal" data-category="ui">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&q=80"
+                                alt="E-Summit Website" loading="lazy" />
+                            <div class="card__overlay">
+                                <span class="card__view">Visit Website →</span>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <span class="card__cat">UI / UX</span>
+                            <h3 class="card__title">E-Summit Website</h3>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="https://www.figma.com/design/f3DLbMqYryjgezypQi56b3/Projects?node-id=0-1&t=1Qh5OhvRGgzICpfm-1"
+                    target="_blank" rel="noopener" class="card-link">
+                    <article class="card reveal" data-category="social">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&q=80"
+                                alt="Instagram post designs" loading="lazy" />
+                            <div class="card__overlay">
+                                <span class="card__view">View on Figma →</span>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <span class="card__cat">Social Media</span>
+                            <h3 class="card__title">E-Cell Instagram Designs</h3>
+                        </div>
+                    </article>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ ABOUT ░░ -->
+    <section class="section about" id="about">
+        <div class="container about__grid">
+            <div class="about__text">
+                <p class="section__tag reveal">✦ About Me</p>
+                <h2 class="section__title reveal">Subhendu<br />Sarkar</h2>
+                <p class="about__desc reveal">
+                    I'm the <strong>Design Head at E-Cell IIT BHU</strong>, where I lead a team of 12 talented
+                    designers. From Instagram post designs to the complete UI/UX of the E-Cell IIT BHU website and the
+                    E-Summit website, I bring ideas to life through clean, impactful design. I believe great design sits
+                    at the intersection of empathy, strategy, and craft.
+                </p>
+                <div class="about__stats reveal">
+                    <div class="stat">
+                        <span class="stat__number" data-count="12">0</span>
+                        <span class="stat__label">Team Members Led</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number" data-count="3">0</span><span class="stat__plus">+</span>
+                        <span class="stat__label">Major Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number" data-count="100">0</span><span class="stat__plus">+</span>
+                        <span class="stat__label">Designs Created</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about__visual reveal">
+                <div class="about__card glass">
+                    <div class="about__card-icon">🎨</div>
+                    <h4>Visual Design</h4>
+                    <p>Brand identity, illustration, and motion graphics</p>
+                </div>
+                <div class="about__card glass">
+                    <div class="about__card-icon">🖥️</div>
+                    <h4>UI / UX</h4>
+                    <p>User research, wireframing, prototyping, and testing</p>
+                </div>
+                <div class="about__card glass">
+                    <div class="about__card-icon">🚀</div>
+                    <h4>Strategy</h4>
+                    <p>Design systems, consulting, and creative direction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ CONTACT ░░ -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <p class="section__tag reveal">✦ Let's Talk</p>
+            <h2 class="section__title reveal">Start a Project</h2>
+            <p class="contact__intro reveal">Have an exciting idea? I'd love to hear about it. Drop me a message and
+                let's turn it into something amazing.</p>
+
+            <form class="contact__form reveal" id="contactForm"
+                action="https://formsubmit.co/sarkarsubhendu2004@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New message from your portfolio!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" style="display:none">
+                <div class="form__row">
+                    <div class="form__group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </div>
+                </div>
+                <div class="form__group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project type (e.g. Branding, UI/UX)" />
+                </div>
+                <div class="form__group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+                    Send Message <span class="btn__arrow">→</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ░░ FOOTER ░░ -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copy">&copy; 2026 Subhendu Sarkar. All rights reserved.</p>
+            <div class="footer__socials">
+                <a href="#" aria-label="Dribbble" class="social-link">Dribbble</a>
+                <a href="#" aria-label="Behance" class="social-link">Behance</a>
+                <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
+                <a href="#" aria-label="Twitter" class="social-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
